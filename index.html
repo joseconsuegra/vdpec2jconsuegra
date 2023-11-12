@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web con Bootstrap</title>
+
+    <!-- Enlazar Bootstrap desde CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <style>
+        /* Agregar estilos personalizados si es necesario */
+        body {
+            padding-top: 20px; /* Añade un espacio adicional en la parte superior para mejorar la apariencia */
+        }
+
+        .btn-container {
+            text-align: center; /* Centra los botones en la página */
+        }
+
+        .btn {
+            width: 150px; /* Tamaño deseado para los botones */
+            height: 150px;
+            margin: 10px; /* Margen entre los botones */
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sección superior con texto introductorio -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center">PEC2 - Visualización de Datos - José Consuegra del Pino</h1>
+                <p class="text-center">Acceda a las diferentes visualizaciones pulsando en los botones del apartado siguiente. Estos botones enlazan con las visualizaciones que han sido construidas utilizando la plataforma <b></b>observablehq.com</b></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botones -->
+    <div class="container btn-container">
+        <div class="row">
+            <div class="col">
+                <a href="https://observablehq.com/d/fd575cc5451bafd8" class="btn btn-primary" target="_blank">Waffle chart</a>
+                <a href="https://observablehq.com/d/3635e16f29dd8edc" class="btn btn-success" target="_blank">Hyperbolic Tree</a>
+                <a href="https://observablehq.com/d/de5cdac6d0f09896" class="btn btn-danger" target="_blank">Cartogram</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enlazar Bootstrap desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
